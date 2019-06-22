@@ -1,2 +1,4 @@
-languageCode = "en-us"
+languageCode = "jp"
 title = "My New Netlify Victor Hugo Site"
+baseURL = "https://www.4-take.work/"
+theme = "hugo-initio"
