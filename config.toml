@@ -1,4 +1,26 @@
-languageCode = "jp"
-title = "My New Netlify Victor Hugo Site"
-baseURL = "https://www.4-take.work/"
-theme = "hugo-initio"
+baseURL = "https://example.com"
+languageCode = "ja"
+title = "しいたけ日誌"
+theme = "hugo-grapes"
+enableEmoji = true
+
+[permalinks]
+  post = "/posts/:slug/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+
+[params]
+avatar = "img/4-take.png"
+customCSS = ["/css/custom.css"]
