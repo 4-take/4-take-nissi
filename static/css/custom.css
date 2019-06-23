@@ -1,0 +1,14 @@
+body .grape {
+  background: #622282;
+}
+
+body main #about {
+  background-image: url('../images/top-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  flex: 0 !important;
+}
+
+body main #about #content {
+  margin-bottom: 3rem;
+}

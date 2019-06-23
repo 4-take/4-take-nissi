@@ -1,6 +1,6 @@
-baseURL = "/"
-languageCode = "ja"
-title = "しいたけ日誌"
+baseurl = "https://example.com"
+languageCode = "en-us"
+title = "Hugo Grapes Theme"
 theme = "hugo-grapes"
 enableEmoji = true
 
@@ -22,5 +22,4 @@ enableEmoji = true
     weight = 20
 
 [params]
-avatar = "images/4-take.png"
-customCSS = ["/css/custom.css"]
+avatar = "img/grapes.svg"
